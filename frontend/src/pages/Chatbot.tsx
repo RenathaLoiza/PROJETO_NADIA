@@ -30,7 +30,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      content: 'Olá! Sou o EconoBot, seu assistente especializado em economia. Posso ajudá-lo com análises econômicas, cálculos financeiros e consultas a documentos PDF. Como posso ajudá-lo hoje?',
+      content: 'Olá! Sou eu a NADIA, sua assistente especializado em economia. Posso ajudá-lo com análises econômicas, Realizar cálculos financeiros e consultas a documentos PDF. Como posso ajudá-lo hoje?',
       type: 'bot',
       timestamp: new Date(),
       metadata: { confidence: 100 }
@@ -171,7 +171,7 @@ export default function Chatbot() {
         <div className="container mx-auto px-4 py-6 flex items-center space-x-3">
           <div className="p-2 rounded-lg bg-gradient-primary neon-glow"><Bot className="h-6 w-6 text-white"/></div>
           <div>
-            <h1 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">EconoBot</h1>
+            <h1 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">NADIA</h1>
             <p className="text-muted-foreground text-sm">Agente RAG para PDFs Econômicos</p>
           </div>
         </div>
